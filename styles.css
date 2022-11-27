@@ -1,0 +1,36 @@
+.container {
+    max-width: 400px;
+    margin:auto;
+    box-shadow: 0px 0px 43px 17px gray;
+}
+.row {
+    display:flex;
+}
+
+#display {
+    width: 400px;
+    height: 75px;
+    background: lightgray;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.button {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: solid 1px black; 
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: #5555ff;
+    color: white;
+}
